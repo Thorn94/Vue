@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <script>
+        window.onload = function () {
+            /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
+              为了以后好算,比如，你测量的一个宽度是100px,就可以写为1rem,以及1px=0.01rem等等*/
+            getRem(720, 100)
+        };
+        window.onresize = function () {
+            getRem(720, 100)
+        };
+        function getRem(pwidth, prem) {
+            var html = document.getElementsByTagName("html")[0];
+            var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+            html.style.fontSize = oWidth / pwidth * prem + "px";
+        }
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div :class="{ header:isHeader}">
+            <h1 :class="{ log_txt:isTxt}">{{message}}</h1>
+        </div>
+        <form :class="{ form:isForm}">
+            <input :class="{ tel_txt:isTel}" type="tel" placeholder="请输入您的手机号">
+            <div :class="{change:isChange}">
+                <input :class="{ tel_txt:isTel}" type="tel" v-model="txt" v-if="pwdType">
+                <!--方便显示密码数据-->
+                <input :class="{ tel_txt:isTel}" v-model="txt" type="password" v-else>
+                <img :src="seen ? seenImg : unseenImg" @click="changeType" alt="img" :class="{img2:close}" />
+            </div>
+            <input type="button" :class="{btn:isBtn}" v-model="btn_txt" @click="show">
+        </form>
+        <div :class="{footer:isFooter}">
+            <a :class="{link:isLink}">{{message2}}</a>
+            <p :class="{account:isAccount}">{{message3}}
+                <a :class="{login:isLogin}">{{message4}}</a>
+            </p>
+        </div>
+        <div :class={last:isLast} v-show='isshow'>
+            <!--使用第二种方法必须绑定show2点击事件 即 @show2="show2"-->
+            <runoob @show2="show2" :class="{run:isRun}">{{infor}}
+            </runoob>
+
+        </div>
+    </div>
+    <script>
+        Vue.component('runoob', {
+            template: '<div>登陆成功'
+                + '<p class="p" @click="child_click()">X</p>'
+                + '</div>',
+            methods: {
+                child_click() {
+                    // this.$parent.show2() //第一种方法
+                    this.$emit('show2');// 第二种方法
+                }
+            }
+        })
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                message: 'logo',
+                isHeader: true,
+                isTxt: true,
+                isForm: true,
+                isTel: true,
+                isChange: true,
+                txt: '523654',
+                close: true,
+                isBtn: true,
+                btn_txt: '登  录',
+                message2: '忘记密码?',
+                isLink: true,
+                isFooter: true,
+                message3: '没有账号?',
+                message4: '立即注册',
+                isAccount: true,
+                isLogin: true,
+                seen: '',
+                unseenImg: "img/2.png",//看不见
+                seenImg: "img/1.png",//看得见密码
+                pwdType: false, //此时文本框隐藏，显示密码框 
+                isLast: true,
+                isshow: false,
+                infor: null,
+                isH1: true,
+                isRun: true,
+                isBtn1: true,
+                isa: true,
+            },
+            methods: {
+                //密码的显示隐藏
+                changeType: function () {
+                    this.seen = !this.seen;//小眼睛的变化
+                    this.pwdType = !this.pwdType;//跟着小眼睛变化，密码框隐藏显示文本框，内容就显示了
+                },
+                show:function(){
+                    this.isshow=true;
+                },
+                show2:function(){
+                    this.isshow=false;
+                }
+            },
+
+
+        });
+
+    </script>
+</body>
+
+</html>

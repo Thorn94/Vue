@@ -1,0 +1,195 @@
+.header{
+    width: 100%;
+    height: 1rem;
+    background-color: #f2b300;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11111;
+}
+.h_list{
+    width: 96%;
+    margin: 0 2%;
+    height: 1rem;
+}
+.h_list li{
+    float: left;
+    height: 1rem;
+    line-height: 1rem;
+}
+.h_left{
+    width: 20%;
+    display: inline-flex;
+}
+.h_left h1{
+    color: white;
+    font-size: 0.3rem;
+    padding-left: 0.1rem;
+}
+.h_left img{
+    width: 0.23rem;
+    height: 0.36rem;
+    padding-top: 0.3rem;
+}
+.h_center{
+    width: 60%;
+    text-align: center;
+}
+.h_center p{
+    color: white;
+    font-size: 0.4rem;
+}
+.h_right{
+    width: 20%;
+    text-align: right;
+}
+.h_right img{
+    width: 0.42rem;
+    height: 0.42rem;
+    padding-bottom: 0.15rem;
+}
+.occupy{
+    margin-top: 1rem;
+    width: 100%;
+}
+.detail{
+    width: 96%;
+    margin: 0 2%;
+}
+.detail_head{
+    width: 100%;
+    display: inline-flex;
+    border-bottom: 1px dashed #f2b300;
+}
+.detail_head h1{
+    color: black;
+    font-size: 0.35rem;
+    width: 50%;
+    text-align: left;
+    padding-bottom: 0.3rem;
+}
+.detail_head p{
+    text-align: right;
+    color: darkgray;
+    font-size: 0.3rem;
+    width: 50%;
+    text-align: right;
+    padding-top: 0.05rem;
+}
+.datail_content{
+    width: 100%;
+    padding: 0.2rem 0;
+}
+.datail_content p{
+    color: darkgray;
+    font-size: 0.3rem;
+    text-align: left;
+    line-height: 0.5rem;
+}
+.datail_content p span{
+    color: black;
+    font-size: 0.3rem;
+    padding-left: 0.1rem;
+}
+.blank{
+    width: 100%;
+    height: 0.12rem;
+    background: rgba(169, 169, 169, 0.12);
+}
+.introduce{
+    width: 96%;
+    margin: 0 2%;
+    padding: 0.2rem 0;
+}
+.introduce h1{
+    color: #f2b300;
+    font-size: 0.35rem;
+    text-align: left;
+}
+.introduce p{
+    padding-top: 0.2rem;
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.5rem;
+    text-align: left;
+}
+.login{
+    width: 100%;
+    height: 0.8rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.44);
+}
+.login p{
+    color: darkgray;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+}
+.about{
+    width: 100%;
+    height: 3rem;
+}
+.about ul{
+    width: 90%;
+    margin: 0 5%;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+.about ul li{
+    float: left;
+    width: 25%;
+    font-size: 0.3rem;
+    color: darkgray;
+    text-decoration: underline;
+}
+.about p{
+    color: darkgray;
+    font-size: 0.25rem;
+    padding-top: 0.5rem;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    z-index: 111;
+}
+.f_list{
+    width: 100%;
+    height: 1rem;
+    
+}
+.f_list li{
+   float: left;
+    width: 50%;   
+    height: 1rem;
+    display: inline-flex;
+}
+.f_list li img{
+    width: 0.4rem;
+    height: 0.4rem;
+    padding-top: 0.28rem;
+}
+.div{
+    width: 60%;
+    margin: 0 20%;
+    display: inline-flex;
+}
+.f_left{
+    background-color: #3d3c41;
+}
+.f_right{
+    background-color: #f2b300;
+}
+.f_left span{
+    font-size: .35rem;
+    line-height: 1rem;
+    color: #f2b300;
+    padding-left: 0.1rem;
+}
+.f_right span{
+    color:white;
+    font-size: 0.35rem;
+    line-height: 1rem;
+    padding-left: 0.1rem;
+}

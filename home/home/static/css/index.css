@@ -1,0 +1,603 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.header {
+    width: 100%;
+    overflow: auto;
+    background-color: #fafafa;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1111
+}
+
+.h_content {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0.2rem 0;
+    display: inline-flex;
+    position: relative;
+}
+
+.search {
+    width: 100%;
+    font-size: 0.25rem;
+    padding: 0.2rem 0;
+    background-color: white;
+    border: 0;
+    outline: none;
+    padding-left: 0.6rem;
+    border-radius: 0.1rem;
+    color: darkgray;
+    box-shadow: 1px 1px 5px rgba(136, 136, 136, 0.45)
+}
+
+.img1 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 0.35rem;
+    left: 0.1rem;
+}
+
+.occupy {
+    background-color: #fafafa;
+    margin-top: 1.09rem;
+}
+
+.hot {
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+}
+
+.hot_left {
+    width: 20%;
+}
+
+.hot_con {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0.3rem 0;
+    display: inline-flex;
+}
+
+.img2 {
+    width: 1rem;
+    height: 0.25‬rem;
+}
+
+.hot_txt {
+    width: 80%;
+    font-size: 0.25rem;
+    color: black;
+    padding-left: 0.2rem;
+    /* animation: myMove 5s linear infinite;
+    animation-fill-mode: forwards; */
+    /* display: inline-flex; */
+}
+
+/*文字无缝滚动*/
+
+/* @keyframes myMove {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-150px);
+    }
+} */
+
+.hot_txt a {
+    float: left;
+}
+
+.img3 {
+    width: 0.3rem;
+    height: 0.3rem;
+    float: right;
+}
+
+.blank {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #f1f2f3;
+}
+
+.list {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.ul_list {
+    width: 100%;
+    padding: 0.3rem 0;
+    overflow: auto;
+}
+
+.ul_list li {
+    width: 25%;
+    float: left;
+}
+
+.img4 {
+    width: 0.82rem;
+    height: 0.82rem;
+}
+
+.ul_list li p {
+    padding-top: 0.1rem;
+    font-size: 0.25rem;
+}
+
+.banner {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0.3rem 0;
+}
+
+.img5 {
+    width: 100%;
+}
+
+.banner_sp img {
+    width: 100%;
+    height: 100%;
+}
+
+.sale {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0.3rem 0;
+    overflow: auto;
+}
+
+.all h1 {
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+
+.all {
+    text-align: right;
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 0.4rem;
+}
+
+.all span {
+    font-size: 0.25rem;
+    color: darkgray;
+}
+
+.view_all {
+    width: 80%;
+    text-align: right;
+}
+
+.details {
+    width: 100%;
+    overflow: auto;
+    display: inline-flex;
+}
+
+.details_sp img {
+    width: 2.77rem;
+    height: 1.78rem;
+}
+
+.details_sp {
+    margin-right: 0.3rem !important;
+    width: auto !important;
+    float: left;
+}
+
+.details_sp h1 {
+    font-weight: bold;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.details_sp p {
+    font-size: 0.25rem;
+}
+
+.details_sp p span {
+    color: red;
+    font-size: 0.3rem;
+    text-align: right;
+}
+
+.find {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0.3rem 0;
+}
+
+.find_house {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 9px #e0e0e0;
+}
+
+.in_house {
+    width: 82%;
+    margin: 0 9%;
+    padding: 0.4rem 0;
+}
+
+.in_all {
+    width: 100%;
+    overflow: hidden;
+}
+
+.in_all li {
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    font-size: 0.33rem;
+}
+
+.in_all .last_h1 {
+    color: darkgray;
+}
+
+/* .first_line {
+    margin: 0.3rem 0;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 0.1rem;
+    background: red;
+} */
+
+/* .last_line {
+    margin: 0.3rem 0;
+    width: 100%;
+    border: 2px solid darkgray;
+    background: darkgray;
+    border-radius: 0.1rem;
+} */
+
+.think {
+    width: 100%;
+    padding: 0.2rem;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.think_left {
+    width: 50%;
+    overflow: hidden;
+}
+
+.img_think {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.think_left h1 {
+    font-weight: 800;
+    color: black;
+    font-size: 0.31rem;
+}
+
+.think_left p {
+    padding-top: 0.2rem;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.67);
+}
+
+.btn {
+    width: 100%;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: white;
+    font-size: 0.35rem;
+    border: 0;
+    outline: none;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    background: linear-gradient(to right, #f63117, #f9814f);
+    background-color: #f63117;
+}
+
+.adv {
+    width: 94%;
+    margin: 0 3%;
+    padding: 0.4rem 0;
+}
+
+.adv h1 {
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+
+.adv_content {
+    width: 100%;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    display: inline-flex;
+}
+
+.adv_left img {
+    width: 1.73rem;
+    height: 1.4rem;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+}
+
+.adv_detail {
+    width: 70%;
+    position: relative;
+    text-align: left;
+}
+
+.adv_detail h1 {
+    font-weight: bold;
+    color: black;
+}
+
+.adv_detail p {
+    color: darkgray;
+    font-size: 0.25rem;
+    padding-top: 0.2rem;
+    clear: both;
+}
+
+.adv_detail h2 {
+    padding-top: 0.2rem;
+}
+
+.adv_detail h2 span {
+    color: #586b93;
+    background: #e8ebf3;
+    padding: 0.1rem 0.1rem;
+    margin-right: 0.1rem;
+    font-size: 0.2rem;
+}
+
+.adv_detail h3 {
+    color: darkgrey;
+    font-size: 0.25rem;
+    padding-top: 0.2rem;
+}
+
+.adv_detail h3 img {
+    width: 0.3rem;
+    height: 0.3rem;
+}
+
+.adv_right {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+}
+
+.adv_right h4 {
+    color: red;
+}
+
+.adv_left {
+    width: 30%;
+}
+
+.medium {
+    width: 94%;
+    margin: 0 3%;
+    padding-bottom: 0.4rem;
+}
+
+.medium h1 {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+}
+
+.medium button {
+    width: 100%;
+    height: 0.5rem;
+    text-align: left;
+    line-height: 0.5rem;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, #f63117, #f9814f);
+    background-color: #f63117;
+    padding: 0 0.4rem;
+}
+
+.medium button span {
+    float: right;
+}
+
+.infor {
+    width: 94%;
+    margin: 0 3%;
+    overflow: hidden;
+    height: 22rem;
+}
+
+.infor_content {
+    width: 100%;
+    margin: 0.5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+}
+
+.photo {
+    width: 100%;
+    display: inline-flex;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+
+.imgs1 {
+    width: 0.77rem;
+    height: 0.77rem;
+    border-radius: 0.5rem;
+    margin-right: 0.2rem;
+}
+
+.photo h1 {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+.photo_center {
+    width: 80%;
+}
+
+.photo p {
+    font-size: 0.25rem;
+    color: darkgray;
+    padding-top: 0.1rem;
+    text-align: left;
+}
+
+.question {
+    float: right;
+}
+
+.wechat {
+    margin-top: 0.1rem;
+    width: 1.2rem;
+    height: 0.35rem;
+    border-radius: 0.3rem;
+    line-height: 0.35rem;
+    border: 1px solid red;
+    color: red;
+    padding: 0.1rem 0.1rem;
+    text-align: right;
+    position: relative;
+}
+
+.wechat img {
+    width: 0.45rem;
+    height: 0.35rem;
+    text-align: left;
+    position: absolute;
+    left: 0.1rem;
+}
+
+.infor_content h2 {
+    color: black;
+    font-weight: bold;
+    line-height: 0.4rem;
+    text-align: left;
+    font-size: 0.25rem;
+}
+
+.infor_img {
+    width: 100%;
+    margin: 0.2rem 0;
+    overflow: hidden;
+}
+
+.infor_img li {
+    float: left;
+    width: 31%;
+    margin-right: 0.2rem;
+}
+
+.infor_img li img {
+    width: 100%;
+}
+
+.infor_footer {
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+    margin-bottom: 0.2rem;
+}
+
+.map {
+    width: auto;
+    background-color: #e8ebf3;
+    color: #586b93;
+    padding: 0.1rem 0.2rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 0.25rem;
+    position: relative;
+}
+
+.map img {
+    position: absolute;
+    left: 0.25rem;
+}
+
+.map span {
+    padding-left: 0.4rem;
+}
+
+.infor_right {
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+}
+
+.relay {
+    display: inline-flex;
+    margin-left: 0.1rem;
+}
+
+.relay img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+
+.relay p {
+    padding-left: 0.1rem;
+    padding-top: 0.05rem;
+}
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 11111;
+}
+
+.footer_ul {
+    width: 100%;
+    overflow: hidden;
+    padding: 0.1rem 0;
+}
+
+.footer_ul li {
+    float: left;
+    width: 25%;
+}
+
+.footer_ul li p {
+    font-size: 0.25rem;
+    padding-top: 0.1rem;
+}
+
+/* 点击对应的标题添加对应的背景颜色 */
+
+.in_all .active {
+    color: black;
+}
+.in_all .active p{
+    background: red;
+    margin: 0.3rem 0;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 0.1rem;
+}

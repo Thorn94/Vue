@@ -1,0 +1,325 @@
+.header{
+    width: 100%;
+    height: 1rem;
+    /* background-color: #f2b300; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11111;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,0) 100%);
+}
+.header_txt{
+    width: 96%;
+    margin: 0 2%;
+    padding: 0.1rem 0;
+    height: 0.8rem;
+}
+.h_list{
+    width: 100%;
+    height: 0.8rem;
+}
+.h_list li{
+    float: left;
+    height: 0.8rem;
+}
+.hlist_left{
+    width: 17%;
+}
+.hlist_left img{
+    width: 1.28rem;
+    height: 0.69rem;
+    padding-bottom: 0.1rem;
+}
+.hlist_center{
+    width: 66%;
+    position: relative;
+    display: inline-flex;
+}
+.hlist_center img{
+    position: relative;
+    top: 0.25rem;
+    left: 0.5rem;
+    width: 0.28rem;
+    height: 0.28rem;
+}
+.search{
+    width: 100%;
+    height: 0.7rem;
+    border-radius: 0.3rem;
+    color: black;
+    font-size: 0.3rem;
+    padding-left: 0.6rem;
+    line-height: 0.7rem;
+    background: white;
+    border: 0;
+    outline: none;
+    margin: 0.05rem 0;
+    opacity: 0.5;
+}
+.hlist_right{
+    width: 17%;
+    display: inline-flex;
+    text-align: right;
+}
+.hlist_right img{
+    padding-top: 0.25rem;
+    width: 0.23rem;
+    height: 0.28rem;
+    padding-left: 0.2rem;
+}
+.hlist_right span{
+    color: white;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    padding-left: 0.1rem;
+}
+.occupy{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.banner{
+   width: 100%;
+   height: 4.05rem;
+}
+.banner img{
+    width: 100%;
+}
+.top_nav{
+    width: 100%;
+    height: 1.8rem;
+    background: white;
+}
+.tnav_list{
+    width: 100%;
+    padding: 0.2rem 0;
+    height: 1.4rem;
+}
+.tnav_list li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.tnav_list li img{
+    width: 0.92rem;
+    height: 0.92rem;
+}
+.tnav_list li p{
+    color: black;
+    font-size: 0.3rem;
+    padding-top: 0.1rem;
+}
+.blank{
+    width: 100%;
+    height: 0.15rem;
+    background: rgba(169, 169, 169, 0.12);
+}
+.notice{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+}
+.ntc_txt{
+    width: 96%;
+    margin: 0 2%;
+    height: 0.8rem;
+    display: inline-flex;
+}
+.ntc_img{
+    height: 0.8rem;
+}
+.ntc_img img{
+    width: 0.94rem;
+   padding-bottom: 0.2rem;
+}
+.ntc_txt h1{
+    padding-left: 0.1rem;
+    color: black;
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+}
+.ntc_txt p{
+    color: darkgray;
+    font-size: 0.25rem;
+    line-height: 0.8rem;
+}
+.partner{
+    width: 100%;
+    background: white;
+}
+.partner_txt h2{
+    float: left;
+    line-height: 0.6rem;
+}
+.partner_txt{
+    width: 96%;
+    margin: 0 2%;
+    height: 1rem;
+}
+
+.partner_txt h2 img{
+    width: 0.55rem;
+    height: 0.4rem;
+}
+.partner_txt h2 span{
+    color: red;
+    font-size: 0.4rem;
+    padding-left: 0.1rem;
+}
+.partner_txt a{
+    color: darkgray;
+    font-size: 0.3rem;
+    float: right;
+    line-height: 1rem;
+}
+.partner_txt a img{
+    width: 0.4rem;
+    height: 0.4rem;
+    padding-top: 0.2rem;
+}
+.patn_list{
+    width: 100%;
+    background: white;
+    border-top: 1px solid rgba(169, 169, 169, 0.44);
+    height: 6rem;
+}
+.patn_list li{
+    width: 96%;
+    margin: 0 2%;
+    height: 1.6rem;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.44);
+}
+.first1,.first2{
+    width: 100%;
+}
+.first2{
+    clear: both;
+}
+.first1 p,.first3 p{
+    float: left;
+    color: darkgray;
+    font-size: 0.3rem;
+}
+.first1 p span,.first3 p span{
+    color: black;
+}
+.first1 h1{
+    float: right;
+    color: darkgray;
+    font-size: 0.25rem;
+}
+.first2 h2{
+    color: darkgray;
+    font-size: 0.3rem;
+    float: left;
+    padding-top: 0.3rem;
+}
+.first2 h2 span{
+    color: red;
+}
+.first3{
+    clear: both;
+    padding-top: 0.3rem;
+}
+.first3 p{
+    line-height: 0.4rem;
+}
+.first3 h1{
+    float: right;
+    color: #f2b300;
+    width: 1rem;
+    height: 0.4rem;
+    border: 1px solid #f2b300;
+    border-radius: 0.1rem;
+    line-height: 0.4rem;
+    font-size: 0.25rem;
+}
+.hot{
+    width: 96%;
+    margin: 0 2%;
+    height: 2rem;
+    padding: 0.2rem 0;
+}
+.hot li{
+    float: left;
+    font-size: 0.3rem;
+    color: black;
+    margin: 2% 4% 2% 0;
+    line-height: 0.4rem;
+}
+.bottom_banner{
+    width: 100%;
+}
+.bottom_banner img{
+    width: 100%;
+}
+.login{
+    width: 100%;
+    height: 0.8rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.44);
+}
+.login p{
+    color: darkgray;
+    font-size: 0.3rem;
+    line-height: 0.8rem;
+}
+.about{
+    width: 100%;
+    height: 3rem;
+}
+.about ul{
+    width: 90%;
+    margin: 0 5%;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+.about ul li{
+    float: left;
+    width: 25%;
+    font-size: 0.3rem;
+    color: darkgray;
+    text-decoration: underline;
+}
+.about p{
+    color: darkgray;
+    font-size: 0.25rem;
+    padding-top: 0.5rem;
+}
+.footer{
+    width: 100%;
+    background: #3d3c41;
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer ul{
+    width: 100%;
+    padding: 0.1rem 0;
+    height: 0.8rem;
+}
+.footer ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 0.8rem;
+}
+.footer ul li img{
+    width: 0.38rem;
+    height: 0.38rem;
+    display: block;
+    padding-left: 40%;
+}
+.footer ul li p{
+    padding-top: 0.1rem;
+    color: white;
+    font-size: 0.25rem;
+}
+.fix{
+    position: fixed;
+    bottom: 3rem;
+    right: 0;
+}
